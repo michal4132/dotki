@@ -7,7 +7,12 @@ alias ffmpeg="ffmpeg -hide_banner"
 alias idf="source /home/michal/esp-idf/export.sh"
 alias fanmax="echo level full-speed | sudo tee /proc/acpi/ibm/fan"
 alias fanauto="echo level auto | sudo tee /proc/acpi/ibm/fan"
+alias ..="cd .."
+alias ls="ls --color"
 
+export TERM="xterm-256color"
+
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 autoload -U colors && colors
 PS1="%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[cyan]%}%m %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%  "
