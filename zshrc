@@ -1,6 +1,9 @@
 setopt noautomenu
 setopt nomenucomplete
 
+autoload -Uz compinit
+compinit
+
 bindkey -e
 bindkey "\e[3~" delete-char
 bindkey "\e[H" beginning-of-line
