@@ -1,3 +1,11 @@
+setopt noautomenu
+setopt nomenucomplete
+
+bindkey -e
+bindkey "\e[3~" delete-char
+bindkey "\e[H" beginning-of-line
+bindkey "\e[1~" beginning-of-line
+bindkey "\e[F" end-of-line
 
 alias cp="cp -i"                          # confirm before overwriting something
 alias df='df -h'                          # human-readable sizes
