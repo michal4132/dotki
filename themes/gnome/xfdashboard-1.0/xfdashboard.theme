@@ -1,0 +1,10 @@
+[Xfdashboard Theme]
+Name=xfdashboard-gnome
+Comment=Gnome theme for xfdashboard
+Style=xfdashboard-gnome.css
+Layout=xfdashboard.xml;xfdashboard-secondary.xml
+Effects=effects.xml
+Animations=animations.xml
+Author=michal4132
+Version=0.9.90
+Screenshot=screenshot-xfdashboard-gnome.png

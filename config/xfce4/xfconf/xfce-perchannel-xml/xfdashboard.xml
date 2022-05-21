@@ -6,9 +6,8 @@
       <property name="sort-mode" type="uint" value="0"/>
     </property>
   </property>
-  <property name="theme" type="string" value="xfdashboard-blue"/>
+  <property name="theme" type="string" value="gnome"/>
   <property name="enabled-plugins" type="array">
-    <value type="string" value="gnome-shell-search-provider"/>
     <value type="string" value="hot-corner"/>
   </property>
   <property name="plugins" type="empty">
