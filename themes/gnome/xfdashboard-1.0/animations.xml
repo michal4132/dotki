@@ -44,7 +44,7 @@
 		</timeline>
 	</trigger>
 
-	<trigger id="window-moved" sender="XfdashboardLiveWindow" signal="move-resize">
+	<!-- <trigger id="window-moved" sender="XfdashboardLiveWindow" signal="move-resize">
 		<timeline delay="0" duration="500" mode="linear">
 			<apply>
 				<property name="x" />
@@ -53,7 +53,7 @@
 				<property name="height" />
 			</apply>
 		</timeline>
-	</trigger>
+	</trigger> -->
 
 	<trigger id="quicklaunch-item-moved" sender="XfdashboardQuicklaunch XfdashboardApplicationButton" signal="move-resize">
 		<timeline delay="0" duration="100" mode="linear">
