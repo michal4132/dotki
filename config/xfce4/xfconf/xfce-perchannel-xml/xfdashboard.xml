@@ -13,6 +13,7 @@
   <property name="plugins" type="empty">
     <property name="hot-corner" type="empty">
       <property name="activation-radius" type="int" value="10"/>
+      <property name="activation-duration" type="uint64" value="1"/>
     </property>
   </property>
 </channel>
