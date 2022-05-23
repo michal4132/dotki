@@ -28,6 +28,7 @@
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="leave-opacity" type="uint" value="100"/>
       <property name="icon-size" type="uint" value="22"/>
+      <property name="autohide-behavior" type="uint" value="1"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -55,7 +56,7 @@
     </property>
     <property name="plugin-3" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance24063"/>
+      <property name="mpris-players" type="string" value="chromium.instance24063;chromium.instance33518"/>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>

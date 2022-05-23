@@ -10,7 +10,7 @@ then
 
     sudo chsh $(whoami) -s /bin/zsh
 
-    sudo pacman -Sy zsh-syntax-highlighting git picom
+    sudo pacman -Sy zsh-syntax-highlighting git picom tmux
 
     # install xfdashboard
     git clone https://github.com/michal4132/xfdashboard
@@ -24,6 +24,7 @@ fi
 ln -fs $REPO_PATH/zshrc ~/.zshrc
 ln -fs $REPO_PATH/gitconfig ~/.gitconfig
 ln -fs $REPO_PATH/config ~/.config
+ln -fs $REPO_PATH/tmux.conf ~/.tmux.conf
 ln -fs $REPO_PATH/config/picom.conf ~/.config/picom.conf
 ln -fs $REPO_PATH/config/autostart/Picom.desktop ~/.config/autostart/Picom.desktop
 ln -fs $REPO_PATH/config/autostart/XFDashboard.desktop ~/.config/autostart/XFDashboard.desktop
@@ -47,4 +48,3 @@ ln -fs $REPO_PATH/themes/gnome/xfdashboard-1.0/xfdashboard-gnome.css ~/.themes/g
 ln -fs $REPO_PATH/themes/gnome/xfdashboard-1.0/xfdashboard-secondary.xml ~/.themes/gnome/xfdashboard-1.0/xfdashboard-secondary.xml
 ln -fs $REPO_PATH/themes/gnome/xfdashboard-1.0/xfdashboard.theme ~/.themes/gnome/xfdashboard-1.0/xfdashboard.theme
 ln -fs $REPO_PATH/themes/gnome/xfdashboard-1.0/xfdashboard.xml ~/.themes/gnome/xfdashboard-1.0/xfdashboard.xml
-
