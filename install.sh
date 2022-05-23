@@ -12,9 +12,8 @@ then
 
     sudo pacman -Sy zsh-syntax-highlighting git picom
 
-    # TODO: fix xfdashboard quicklaunch
     # install xfdashboard
-    git clone https://gitlab.xfce.org/apps/xfdashboard
+    git clone https://github.com/michal4132/xfdashboard
     cd xfdashboard
     ./autogen.sh
     make -j 4
