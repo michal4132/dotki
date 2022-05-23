@@ -5,6 +5,12 @@
     <property name="applications-search-provider" type="empty">
       <property name="sort-mode" type="uint" value="0"/>
     </property>
+    <property name="windows-view" type="empty">
+      <property name="scroll-event-changes-workspace" type="bool" value="true"/>
+    </property>
+    <property name="search-view" type="empty">
+      <property name="delay-search-timeout" type="uint" value="0"/>
+    </property>
   </property>
   <property name="theme" type="string" value="gnome"/>
   <property name="enabled-plugins" type="array">
@@ -12,8 +18,9 @@
   </property>
   <property name="plugins" type="empty">
     <property name="hot-corner" type="empty">
-      <property name="activation-radius" type="int" value="10"/>
-      <property name="activation-duration" type="uint64" value="1"/>
+      <property name="activation-radius" type="int" value="7"/>
+      <property name="activation-duration" type="uint64" value="10"/>
     </property>
   </property>
+  <property name="switch-to-view-on-resume" type="string" value="builtin.windows"/>
 </channel>

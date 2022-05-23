@@ -351,6 +351,8 @@ XfdashboardSearchView XfdashboardSearchResultContainer
 	view-mode: list;
 	spacing: 4.0;
 	padding: 4.0;
+	margin-left: 256.0;
+	margin-right: 256.0;
 }
 
 XfdashboardSearchView XfdashboardSearchResultContainer .title
@@ -403,8 +405,10 @@ XfdashboardSearchView XfdashboardSearchResultContainer XfdashboardButton.result-
 /* Applications view */
 XfdashboardApplicationsView
 {
-	view-mode: list;
-	spacing: 4.0;
+	margin-right: 128.0;
+	margin-left: 128.0;
+	view-mode: icon;
+	spacing: 8.0;
 }
 
 XfdashboardApplicationsView,
@@ -418,11 +422,12 @@ XfdashboardApplicationsView XfdashboardApplicationButton
 XfdashboardApplicationsView XfdashboardButton.view-mode-icon
 {
 	button-style: both;
-	icon-size: 64.0;
+	icon-size: 96.0;
 	single-line: false;
+	ellipsize-mode: end;
 	sync-icon-size: false;
 	icon-orientation: top;
-	text-justify: center;   
+	text-justify: center;
 }
 
 XfdashboardApplicationsView XfdashboardButton.view-mode-list
