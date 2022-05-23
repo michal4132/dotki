@@ -14,9 +14,11 @@ then
 
     # TODO: fix xfdashboard quicklaunch
     # install xfdashboard
-    git clone https://aur.archlinux.org/xfdashboard.git
+    git clone https://gitlab.xfce.org/apps/xfdashboard
     cd xfdashboard
-    makepkg -si
+    ./autogen.sh
+    make -j 4
+    sudo make install
     cd ..
 fi
 
@@ -24,7 +26,8 @@ ln -fs $REPO_PATH/zshrc ~/.zshrc
 ln -fs $REPO_PATH/gitconfig ~/.gitconfig
 ln -fs $REPO_PATH/config ~/.config
 ln -fs $REPO_PATH/config/picom.conf ~/.config/picom.conf
-ln -fs $REPO_PATH/config/autostart/org.xfce.xfdashboard-autostart.desktop ~/.config/autostart/org.xfce.xfdashboard-autostart.desktop
+ln -fs $REPO_PATH/config/autostart/Picom.desktop ~/.config/autostart/Picom.desktop
+ln -fs $REPO_PATH/config/autostart/XFDashboard.desktop ~/.config/autostart/XFDashboard.desktop
 
 pkill xfconfd
 
