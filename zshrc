@@ -1,3 +1,8 @@
+HISTFILE=~/.histfile
+HISTSIZE=100000
+SAVEHIST=100000
+setopt appendhistory beep nomatch interactive_comments histignoredups
+
 setopt noautomenu
 setopt nomenucomplete
 
